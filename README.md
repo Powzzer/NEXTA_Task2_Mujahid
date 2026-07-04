@@ -1,6 +1,6 @@
 # AI Receipt Reader & Market Auditor 
 
-This app reads receipt images, extracts the items, and checks if you were overcharged compared to average market prices.
+This app reads receipt images, extracts the items, and checks if you the items are over/fairly priced compared to average market prices.
 
 ---
 
@@ -64,6 +64,6 @@ Results Table
 
 ## 🔧 AI Help vs. My Work
 
-* **What AI Helped With:** Setting up the basic code for the Streamlit layout and connecting to the new google-genai SDK.
-* **What I Fixed Myself:** Changing the table code to use strict object dot notation (item.price_analysis instead of item["price_analysis"]) to prevent the app from crashing. I also built the dynamic currency symbol switcher.
-* **What I Learned:** How a local computer acts as a web server (localhost), and how Pydantic makes sure unstructured images always turn into clean tables.
+* **What AI Helped With:** Setting up the initial code. Troubleshooting.
+* **What I Fixed Myself:** Changing the table code. Interacting with Gemini through managing the prompts and instructions. Refining multiple parts of the code.
+* **What I Learned:** How a local computer acts as a web server (localhost), and how Pydantic makes sure unstructured images always turn into clean JSON tables that can be easily parsed.
