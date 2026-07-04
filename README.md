@@ -32,7 +32,7 @@ Results Table
 
 ## Example Output
 
-* **Image Used:** receipt.jpeg (Receipt sample)
+* **Image Used:** receipt.png (Receipt sample)
 * **AI Model:** gemini-3.5-flash
 
 ### Prompt Used:
